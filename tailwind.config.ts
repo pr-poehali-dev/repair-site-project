@@ -18,7 +18,12 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Open Sans', 'system-ui', 'sans-serif'],
+				'heading': ['Montserrat', 'system-ui', 'sans-serif'],
+			},
 			colors: {
+				success: '#059669',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
